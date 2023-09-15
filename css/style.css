@@ -44,6 +44,7 @@ body a:active {
 }
 
 body{
+	overflow-x:hidden;
     height: 100vh;
     background-image: var(--body-background-image);
 		background-size: cover;
