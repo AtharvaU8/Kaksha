@@ -332,6 +332,10 @@ body.dark .search-field i{
         z-index: 100;
         transition: all 0.4s ease;
     }
+    #img{
+
+    	height: 30px;
+    }
     nav.active .menu{
         left: -0%;
     }
