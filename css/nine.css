@@ -419,6 +419,7 @@ input[type=text] {
 	margin: 0 auto;
 	min-height: 30%;
 	width: 50%;
+	overflow-x: hidden;
 }
 .down {
 	font-size: 20px;
