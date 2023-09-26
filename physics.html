@@ -1,0 +1,434 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="css/sci/physics.css" type="text/css" />
+  <link rel="icon" href="images/kaksha.png" type="image/x-icon" />
+	<title>Physics</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://kit.fontawesome.com/fd38fe2beb.js"
+	crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/dd4898f048.js"
+	crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+ <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'
+    rel='stylesheet'>	
+</head>
+<body>
+	
+<nav>
+
+		<div class="nav-bar">
+
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo">
+            	<a href="#"><img src="images/kaksha.png" 
+            	height="35px" style="margin-right: 10px;
+            	margin-bottom:3px;">Kaksha</a>
+            </span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                	<a class="navbar-brand" href="index.html"><img src="images/kaksha.png"
+                	height="30px" style="margin-bottom: 5px;"></a>
+                    <span class="logo"><a href="#">Kaksha</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                		<li><a href="/index.html">Home</a></li>
+                    <li><a href="/nine.html">9th Class</a></li>
+                    <li><a href="/ten.html">10th Class</a></li>
+                    <li><a href="https://atharva-portfolio.netlify.app/">Portfolio</a></li>                    
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel' id="cancel"></i>
+                    <i class='bx bx-search search'></i>
+                   </div>
+
+                    <div class="search-field">
+                        <input onkeyup="search()" type="text"
+                        name="search" id="searchbar"
+                        placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+</nav>
+
+<div class="contain" id="contain">
+        <div id="list">
+        	<a class="listItem" href="/index.html">Home</a>
+        	<a class="listItem" href="/nine.html">9th Class</a>
+        	<a class="listItem" href="/nine.html#sci">9th Science</a>
+        	<a class="listItem" href="/physics.html">9th Physics</a>
+        	<a class="listItem" href="/physics.html#chap1">9th Physics Motion</a>
+        	<a class="listItem" href="/physics.html#chap2">9th Physics Force and
+        	Laws of Motion</a>
+        	<a class="listItem" href="/physics.html#chap3">9th Physics Gravitation</a>
+        	<a class="listItem" href="/physics.html#chap4">9th Physics Floating
+        	Bodies</a>
+        	<a class="listItem" href="/physics.html#chap5">9th Physics Work and
+        	Energy</a>
+        	<a class="listItem" href="/physics.html#chap6">9th Physics Sound</a>
+        	<a class="listItem" href="/chemistry.html">9th Chemistry</a>
+        	<a class="listItem" href="/chemistry.html#chap1">9th Chemistry Matter
+        	in Our Surrounding</a>
+        	<a class="listItem" href="/chemistry.html#chap2">9th Chemistry Is
+        	Matter Around us Pure?</a>
+        	<a class="listItem" href="/chemistry.html#chap3">9th Chemistry Atoms
+        	and Molecules</a>
+        	<a class="listItem" href="/chemistry.html#chap4">9th Chemistry
+        	Structure of Atom</a>
+        	<a class="listItem" href="/biology.html">9th Biology</a>
+        	<a class="listItem" href="/biology.html#chap1">9th Biology Cell: The
+        	Fundamental Unit of Life</a>
+        	<a class="listItem" href="/biology.html#chap2">9th Biology Tissue</a>
+        	<a class="listItem" href="/biology.html#chap3">9th Improvement In Food
+        	Resources</a>
+        	<a class="listItem" href="/biology.html#chap4">9th Biology Diversity in
+        	Living Organisms</a>
+        	<a class="listItem" href="/biology.html#chap5">9th Biology Why Do We
+        	Fall Ill</a>
+        	<a class="listItem" href="/biology.html#chap6">9th Biology Natural
+        	Resources</a>
+        	<a class="listItem" href="/nine.html#maths">9th Maths</a>
+        	<a class="listItem" href="/nine.html#eng">9th English</a>
+        	<a class="listItem" href="/nine.html#hindi">9th Hindi</a>
+        	<a class="listItem" href="/nine.html#mara">9th Marathi</a>
+       		<a class="listItem" href="/nine.html#history">9th History</a>
+       		<a class="listItem" href="/nine.html#ps">9th Political Science</a>
+       		<a class="listItem" href="/nine.html#geo">9th Geography</a>
+       		<a class="listItem" href="/ten.html">10th Class</a>
+        	<a class="listItem" href="/ten.html#sci1">10th Science I</a>
+        	<a class="listItem" href="/ten.html#sci2">10th Science II</a>
+        	<a class="listItem" href="/ten.html#maths1">10th Maths I</a>
+        	<a class="listItem" href="/ten.html#maths2">10th Maths II</a>
+        	<a class="listItem" href="/ten.html#hindi">10th Hindi</a>
+        	<a class="listItem" href="/ten.html#eng">10th English</a>
+        	<a class="listItem" href="/ten.html#mara">10th Marathi</a>
+       		<a class="listItem" href="/ten.html#history">10th History</a>
+       		<a class="listItem" href="/ten.html#ps">10th Political Science</a>
+       		<a class="listItem" href="/ten.html#geo">10th Geography</a>
+        </div>
+</div>
+
+
+
+
+<div class="top">
+	
+	<div class="phy">
+		<i class="fas fa-radiation"></i>
+		<a href="physics.html">Physics</a>
+	</div>
+	
+	<div class="chem">
+		<i class="fas fa-atom"></i>
+		<a href="chemistry.html">Chemistry</a>
+	</div>
+	
+	<div class="bio">
+		<i class="fas fa-dna"></i>
+		<a href="biology.html">Biology</a>
+	</div>
+</div>
+
+<h3 class="text">9th Standard Physics Free Online Study Material, Syllabus,
+Videos, Guides, Notes and Tests</h3>
+
+<div class="main">
+	<div class="down">	
+	
+	<div class="chap1" id="chap1">
+		1. Motion
+		<div class="dropdown-content1">
+			
+  		<div class="motion">
+  		<i class="fa-solid fa-book"></i>
+  		<a href="https://drive.google.com/file/d/165RZofg3wJkzJpsZRIYCVxTrK9UZziOd/view?usp=drivesdk">Ncert
+  		Book Chapter Pdf</a>
+  		</div>
+  		
+  		<div class="motion">
+  		<i class="fa-solid fa-note-sticky"></i>
+  		<a
+  		href="https://drive.google.com/file/d/1AXkj00c3y31NxvWzUuG3vNyIxvCiCcPd/view?usp=drivesdk">Notes</a>
+  		</div>
+  		
+  		<div class="motion">
+  		<i class="fa-solid fa-scroll"></i>
+  		<a
+  		href="https://drive.google.com/file/d/1A2NotUJFFASd9c5AC7zbZFrcBBlepH68/view?usp=drivesdk">Test
+  		Paper</a>
+  		</div>
+  		
+  		<div class="motion">
+  		<i class="fa-brands fa-youtube"></i>
+  		<a href="https://youtube.com/playlist?list=PLcJiYBaxEj82rtYKM2gkfGlUNA3FNS3xe&si=zl_rdM8RW3ABlxMg">Video</a>
+  		</div>
+  		
+		</div>	
+	</div>
+	
+	<div class="chap2" id="chap2">
+		2. Force and Laws of Motion
+		<div class="dropdown-content2">
+			
+  		<div class="force">
+  		<i class="fa-solid fa-book"></i>
+  		<a
+  		href="https://drive.google.com/file/d/16-KmxHm0zd6mlh0pL6PrF0Ewd6d2uuB1/view?usp=drivesdk">Ncert
+  		Book Chapter Pdf</a>
+  		</div>
+  		
+  		<div class="force">
+  		<i class="fa-solid fa-note-sticky"></i>
+  		<a
+  		href="https://drive.google.com/file/d/1AbAlXiqHhJNkB2eF1ylyfuPvtBxMl-R3/view?usp=drivesdk">Notes</a>
+  		</div>
+  		
+  		<div class="force">
+  		<i class="fa-solid fa-scroll"></i>
+  		<a
+  		href="https://drive.google.com/file/d/1A35wBS42Zovxe88wTGnasZ-6F08F24CS/view?usp=drivesdk">Test
+  		Paper</a>
+  		</div>
+  		
+  		<div class="force">
+  			<i class="fa-brands fa-youtube"></i>
+  		<a href="https://youtu.be/yhyMVW8vhlw?si=HJcHn9cVeI27DOFF">Video</a>
+  		</div>
+  		
+		</div>
+	</div>
+	
+	<div class="chap3" id="chap3">
+		3. Gravitation 
+  	<div class="dropdown-content3">
+			
+  		<div class="gravity">
+  		<i class="fa-solid fa-book"></i>
+  		<a
+  		href="https://drive.google.com/file/d/16zXrMZp6ScQBaoVmScDQwle5bzQlS2CM/view?usp=drivesdk">Ncert
+  		Book Chapter Pdf</a>
+  		</div>
+  		
+  		<div class="gravity">
+  		<i class="fa-solid fa-note-sticky"></i>
+  		<a
+  		href="https://drive.google.com/file/d/1Ag5WEMPvlYnaiiRDD168Y6I8IhM5Qyko/view?usp=drivesdk">Notes</a>
+  		</div>
+  		
+  		<div class="gravity">
+  		<i class="fa-solid fa-scroll"></i>
+  		<a
+  		href="https://drive.google.com/file/d/1A8DSW0U0Cmk_y6D0VTCHnKxA1xSYQQkg/view?usp=drivesdk">Test
+  		Paper</a>
+  		</div>
+  		
+  		<div class="gravity">
+  		<i class="fa-brands fa-youtube"></i>
+  		<a href="https://youtu.be/nJ0-wICdyYw?si=7aP2NQvNnySKzMlJ">Video</a>
+  		</div>
+  		
+		</div>
+	</div>
+	
+	<div class="chap4" id="chap4" >
+		4. Floating Bodies 
+		<div class="dropdown-content4">
+			
+  		<div class="float">
+  		<i class="fa-solid fa-book"></i>
+  		<a href="https://drive.google.com/file/d/1AIiHnU6QkCz-CFhnXcaMWak7pPmQykVv/view?usp=drivesdk">Ncert
+  		Book Chapter Pdf</a>
+  		</div>
+  		
+  		<div class="float">
+  		<i class="fa-solid fa-note-sticky"></i>
+  		<a
+  		href="https://drive.google.com/file/d/1ATFyibS7eSjPRL3Xg36lWCnYrh3DROlQ/view?usp=drivesdk">Notes</a>
+  		</div>
+  		
+  		<div class="float">
+  		<i class="fa-solid fa-scroll"></i>
+  		<a href="">Test Paper</a>
+  		</div>
+  		
+  		<div class="float">
+  		<i class="fa-brands fa-youtube"></i>
+  		<a href="https://youtu.be/ZOg5_kkwYG8?si=sDQTav_JDtpDtx8d">Video</a>
+  		</div>
+  		
+		</div>
+	</div>
+	
+	<div class="chap5" id="chap5" >
+		5. Work and Energy 
+		<div class="dropdown-content5">
+			
+  		<div class="work">
+  		<i class="fa-solid fa-book"></i>
+  		<a
+  		href="https://drive.google.com/file/d/16vks3uj8nCb_cIr1uw7ogI9EhTAD5SBE/view?usp=drivesdk">Ncert
+  		Book Chapter Pdf</a>
+  		</div>
+  		
+  		<div class="work">
+  		<i class="fa-solid fa-note-sticky"></i>
+  		<a
+  		href="https://drive.google.com/file/d/1AiV7Yu-ZvCa7ZYBj3ls_1Tsa3Sq09Q_B/view?usp=drivesdk">Notes</a>
+  		</div>
+  		
+  		<div class="work">
+  		<i class="fa-solid fa-scroll"></i>
+  		<a
+  		href="https://drive.google.com/file/d/1AB5ytaFE3Bkrjy9cOKphHjIakmr8U-aa/view?usp=drivesdk">Test
+  		Paper</a>
+  		</div>
+  		
+  		<div class="work">
+  		<i class="fa-brands fa-youtube"></i>
+  		<a href="https://youtu.be/p9GADOEuWug?si=nWJF302YjBXgueLs">Video</a>
+  		</div>
+  		
+		</div>
+	</div>
+	
+	<div class="chap6" id="chap6" >
+		6. Sound
+		<div class="dropdown-content6">
+			
+  		<div class="sound">
+  		<i class="fa-solid fa-book"></i>
+  		<a
+  		href="https://drive.google.com/file/d/16goOVBPzHJgJzvTFvHDGI2wKJahXAmLv/view?usp=drivesdk">Ncert
+  		Book Chapter Pdf</a>
+  		</div>
+  		
+  		<div class="sound">
+  		<i class="fa-solid fa-note-sticky"></i>
+  		<a
+  		href="https://drive.google.com/file/d/1Aig0xenxdRtihxn0vff8VB1t11k_WB0o/view?usp=drivesdk">Notes</a>
+  		</div>
+  		
+  		<div class="sound">
+  		<i class="fa-solid fa-scroll"></i>
+  		<a
+  		href="https://drive.google.com/file/d/1AEhJ0sXG5nrG9OYX9MLYeYTSVxDvcu8v/view?usp=drivesdk">Test
+  		Paper</a>
+  		</div>
+  		
+  		<div class="sound">
+  		<i class="fa-brands fa-youtube"></i>
+  		<a href="https://youtu.be/1lOvAIx73vM?si=LOuMT_f-Kr4EpXaz">Video</a>
+  		</div>
+  		
+  	</div>
+  </div>
+	</div>
+</div>
+
+
+
+
+<footer class="new_footer_area bg_color">
+  <div class="new_footer_top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+         	<div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+              <h3 class="f-title f_600 t_color f_size_18">About</h3>
+              <p>Kaksha has created a powerful free learning platform for
+              students, while you are preparing for your board 
+              exams. We have built Kaksha to get most exam relevant data at one
+              place. We provide free study material online and previous years
+              question papers and solutions</p>
+              <a
+              href="https://www.freepik.com/free-vector/vector-black-minimal-aesthetic-grid-pattern-background_16358390.htm#query=Darkgrid%20background&position=1&from_view=search&track=ais">Image
+              by rawpixel.com on Freepik</a>
+           </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+          <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+            	<h3 class="f-title f_600 t_color f_size_18">9th Class</h3>
+                <ul class="list-unstyled f_list">
+                  <li><a href="/nine.html#sci">Science</a></li>
+                  <li><a href="/nine.html#maths">Maths</a></li>
+                 	<li><a href="/nine.html#history">History</a></li>
+                 	<li><a href="/nine.html#geo">Geography</a></li>
+                  <li><a href="/nine.html#ps">Political Science</a></li>
+                  <li><a href="/nine.html#hindi">Hindi</a></li>
+                  <li><a href="/nine.html#eng">English</a></li>
+                  <li><a href="/nine.html#mara">Marathi</a></li>
+                 </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+            	<h3 class="f-title f_600 t_color f_size_18">10th Class</h3>
+                <ul class="list-unstyled f_list">
+								  <li><a href="/ten.html#sci1">Science Part I</a></li>
+								  <li><a href="/ten.html#sci2">Science Part II</a></li>
+                  <li><a href="/ten.html#maths1">Maths Part I</a></li>
+                  <li><a href="/ten.html#maths2">Maths Part II</a></a></li>
+                 	<li><a href="/ten.html#history">History</a></li>
+                 	<li><a href="/ten.html#geo">Geography</a></li>
+                  <li><a href="/ten.html#ps">Political Science</a></li>
+                  <li><a href="/ten.html#hindi">Hindi</a></li>
+                  <li><a href="/ten.html#eng">English</a></li>
+                  <li><a href="/ten.html#mara">Marathi</a></li>
+              	</ul>
+              </div>
+            </div>
+           <div class="col-lg-3 col-md-6">
+           <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+              <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
+              <div class="f_social_icon">
+                <a href="https://www.youtube.com/@justcompileit" class="fab fa-youtube"></a>
+                <a href="https://www.instagram.com/atharvaugale8/" class="fab fa-instagram"></a>
+                <a href="https://github.com/AtharvaU8/" class="fab fa-github"></a>
+                <a href="https://atharva-portfolio.netlify.app/" class="fa-regular fa-user"></a>
+              </div>
+              
+          	</div>
+          </div>
+          
+        </div>
+      </div>
+      	<div class="footer_bg">
+        <div class="footer_bg_one"></div>
+        <div class="footer_bg_two"></div>
+      </div>
+     </div>
+    	<div class="footer_bottom">
+       	<div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-sm-7">
+            <p class="mb-0 f_400">© Kaksha 2023 All rights reserved.</p>
+          </div>
+          <div class="col-lg-6 col-sm-5 text-right">
+          <p>Made by <i class="icon_heart"></i>Atharva</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
