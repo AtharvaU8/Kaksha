@@ -1,7 +1,5 @@
 body a:link {
-
 	text-decoration: none;
-
 	color: unset;
 }
 body a:visited {
@@ -406,7 +404,7 @@ input[type=text] {
 }
 
 
-    
+
 
 
 .top{
@@ -423,9 +421,8 @@ input[type=text] {
 }
 
 .phy{
-	color: var(--sub-color);
-	border-bottom: 3px solid red;
 	margin-left: 20px;
+	color: grey;
 }
 .phy:hover{
 	color: black;
@@ -442,7 +439,8 @@ input[type=text] {
 
 .bio{
 	margin-right: 20px;
-	color: grey;
+	color: var(--sub-color);
+	border-bottom: 3px solid red;
 }
 .bio:hover{
 	color: black;
@@ -532,9 +530,10 @@ input[type=text] {
 	width: 100%;
   padding: 7px 10px;
   display: block;
-  
-/*---------chap1---------*/
 }
+
+/*---------chap1---------*/
+
 .dropdown-content1 a{
 	color: black;
 	text-decoration: none;
@@ -563,6 +562,7 @@ input[type=text] {
 	display: block;
 }
 
+
 /*---------chap4---------*/
 
 .dropdown-content4 a{
@@ -583,6 +583,7 @@ input[type=text] {
 	display: block;
 }
 
+
 /*---------chap6---------*/
 
 .dropdown-content6 a{
@@ -593,14 +594,13 @@ input[type=text] {
 	display: block;
 }
 
+
 @media (max-width: 790px) {
 	.chap1, .chap2, .chap3, .chap4, .chap5,
 	.chap6{
 		min-width: 25ch;
 	}
 }
-
-
 
 
 

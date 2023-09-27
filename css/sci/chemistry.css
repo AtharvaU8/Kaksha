@@ -407,8 +407,10 @@ input[type=text] {
 
 
     
-
-
+ 
+ 
+ 
+ 
 .top{
 	display: flex;
 	justify-content: space-between;
@@ -423,17 +425,16 @@ input[type=text] {
 }
 
 .phy{
-	color: var(--sub-color);
-	border-bottom: 3px solid red;
+	color: grey;
 	margin-left: 20px;
 }
 .phy:hover{
 	color: black;
 	background-color: grey;
-}
-
+}   
 .chem{
-	color: grey;
+	color: var(--sub-color);
+	border-bottom: 3px solid red;
 }
 .chem:hover{
 	background-color: grey;
@@ -441,8 +442,8 @@ input[type=text] {
 }
 
 .bio{
-	margin-right: 20px;
 	color: grey;
+	margin-right: 20px;
 }
 .bio:hover{
 	color: black;
@@ -480,7 +481,7 @@ input[type=text] {
 	font-size: 25px;
   font-weight: 400;
 	text-align: center;
-	margin-top:30px;
+	margin-top: 30px;
 	padding: 120px 0;
 }
 
@@ -505,8 +506,7 @@ input[type=text] {
 }
 
 
-.chap1, .chap2, .chap3, .chap4, .chap5,
-.chap6{
+.chap1, .chap2, .chap3, .chap4{
 	box-shadow: var(--sub-shadow);
 	background-color: var(--sub-bg-color);
 	color: var(--sub-color);
@@ -520,21 +520,20 @@ input[type=text] {
 	margin: 1em auto;
 	padding: 1.7em;
 }
-.dropdown-content1, .dropdown-content2, .dropdown-content3, .dropdown-content4,
-.dropdown-content5, .dropdown-content6{
+.dropdown-content1, .dropdown-content2, .dropdown-content3, .dropdown-content4{
 	width: 100%;
   display: none;
   padding: 10px;
   margin: 10px;
 }
-.motion, .force, .gravity, .float,
-.work, .sound{
+.motion, .force, .gravity, .float{
 	width: 100%;
   padding: 7px 10px;
   display: block;
-  
-/*---------chap1---------*/
 }
+
+/*---------chap1---------*/
+
 .dropdown-content1 a{
 	color: black;
 	text-decoration: none;
@@ -563,6 +562,7 @@ input[type=text] {
 	display: block;
 }
 
+
 /*---------chap4---------*/
 
 .dropdown-content4 a{
@@ -573,25 +573,6 @@ input[type=text] {
 	display: block;
 }
 
-/*---------chap5---------*/
-
-.dropdown-content5 a{
-	color: black;
-	text-decoration: none;
-}
-.chap5:hover .dropdown-content5{
-	display: block;
-}
-
-/*---------chap6---------*/
-
-.dropdown-content6 a{
-	color: black;
-	text-decoration: none;
-}
-.chap6:hover .dropdown-content6{
-	display: block;
-}
 
 @media (max-width: 790px) {
 	.chap1, .chap2, .chap3, .chap4, .chap5,
@@ -603,11 +584,7 @@ input[type=text] {
 
 
 
-
-
-
 .new_footer_area {
-	opacity: 1;
 	margin-top: 100px;
     background: #fbfbfd;
 }
