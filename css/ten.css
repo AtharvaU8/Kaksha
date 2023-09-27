@@ -409,7 +409,6 @@ input[type=text] {
 
 .text{
 	color: var(--sub-color);
-	font-family: 'Julius Sans One', sans-serif;
 	font-weight: bold;
 	text-align: center;
 	margin:10px;
