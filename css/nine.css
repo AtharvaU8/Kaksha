@@ -429,7 +429,11 @@ input[type=text] {
 	margin-left: 10px;
 }
 
-
+svg{
+	color: var(--sub-color);
+	height:auto;
+	width:25px;
+}
 
 
 .dropdown-content .sci{
