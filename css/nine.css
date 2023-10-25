@@ -431,8 +431,7 @@ input[type=text] {
 
 svg{
 	color: var(--sub-color);
-	height:auto;
-	width:25px;
+	width:35px;
 }
 
 
