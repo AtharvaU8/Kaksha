@@ -434,6 +434,10 @@ input[type=text] {
 	margin: 10px;
 }
 
+svg{
+	fill: var(--sub-color);
+	width:40px;
+}
 
 .sub{
 	box-shadow: var(--sub-shadow);
