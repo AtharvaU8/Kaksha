@@ -52,7 +52,7 @@ body{
 body.dark{
 		--sub-shadow: 2.5px 5px 10px white;
 		--body-background-image: url('/images/dark.jpg');
-		--sub-color: white;
+		--sub-color: #ffffff;
 		--sub-bg-color: #242124; 
     --nav-color: #242526;
     --side-nav: #242526;
