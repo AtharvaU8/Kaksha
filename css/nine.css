@@ -430,7 +430,7 @@ input[type=text] {
 }
 
 svg{
-	color: var(--sub-color);
+	fill: var(--sub-color);
 	width:35px;
 }
 
