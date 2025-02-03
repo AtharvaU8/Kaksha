@@ -25,7 +25,7 @@ Kaksha is a powerful and free learning platform designed for students preparing 
 
 ## How to Use  
 
-- Visit our website.
+- [Visit our website.](https://kakshaa.netlify.app/)
 - Browse through the available study materials.
 - Access previous years' question papers and solutions.
 - Utilize the resources to enhance your exam preparation.
